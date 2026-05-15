@@ -8,7 +8,7 @@ export default defineConfig({
     vue(),
     UnoCSS()
   ],
-  base: '/',
+  base: '/portfolio/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
