@@ -6,8 +6,9 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   plugins: [
     vue(),
-    UnoCSS() 
+    UnoCSS()
   ],
+  base: '/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
